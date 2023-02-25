@@ -1,0 +1,220 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{progressbar}
+\usepackage{tabularx}
+\usepackage{soul}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+\newgeometry{
+    top=10mm,
+    bottom=10mm,
+    left=10mm,
+    right=10mm,
+}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+    linkcolor=red,
+    filecolor=red,
+    urlcolor=red,
+    citecolor=blue,
+    breaklinks=true,
+}
+
+\newcommand{\primarycolor}{red}
+\newcommand{\myprogress}[1]{\progressbar[width=3.1cm,roundnessr=0,filledcolor=black,emptycolor=white,subdivisions=1]{#1}}
+\newcommand{\mysection}[1]{{\large\color{\primarycolor}{#1}}}
+\newcommand{\myhspace}[1]{\hspace*{\fill}{#1}}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \begin{tabularx}{\textwidth}{X|p{0.3\textwidth}}
+        \textbf{\Huge{Dhruv Chawla}} &
+        {\begin{tabularx}{0\textwidth}{>{\raggedleft\arraybackslash}p{0.25\textwidth}}
+            \href{mailto:dhruv263.dc@gmail.com}{dhruv263.dc@gmail.com} \\
+        \end{tabularx}} \\
+
+        \makecell[tl]{\LARGE{\color{\primarycolor}Compiler Engineer} \\ {} \vspace{1ex} } &
+        {\begin{tabularx}{0\textwidth}{>{\raggedleft\arraybackslash}p{0.25\textwidth}}
+            +91 9910299843 \\
+            \url{https://dc03.github.io} \\
+            Vellore, Tamil Nadu \\
+        \end{tabularx}} \\
+    \end{tabularx}
+
+    \hrule
+    \vspace{2ex}
+    {\noindent A capable programmer learning compiler design and the LLVM compiler infrastructure. Experienced with interpreters, and familiar with systems and assembly programming.
+    4 years of C++ experience.}
+
+    \vspace{2ex}
+    \hrule
+    \renewcommand{\labelitemi}{}
+    \renewcommand{\labelitemii}{}
+    \renewcommand{\labelitemiii}{}
+    \noindent\begin{tabularx}{\textwidth}{p{0.4\hsize}|X}
+        \vspace{0.5ex}\\
+        \noindent\begin{itemize}[itemsep=1.5ex,leftmargin=-0.1ex]
+            \item\vspace{-5.5ex}{\mysection{Languages}}
+            \item
+                {\begin{tabularx}{0.4\textwidth}{X c r}
+                    English &-& Fluent \\
+                    Hindi &-& Intermediate \\
+                \end{tabularx}}
+            \item{\begin{center}\rule{0.4\textwidth}{0.5pt}\end{center}}
+            \item{\mysection{Skills}}
+            \item
+                {\renewcommand{\arraystretch}{1.4}
+                \begin{tabularx}{0\textwidth}{p{0.2\textwidth}>{\raggedleft\arraybackslash}X}
+                    {C++} & \myprogress{1} \\
+                    {C} & \myprogress{0.9} \\
+                    {Python} & \myprogress{0.7} \\
+                    {Rust} & \myprogress{0.4} \\
+                    {Compilers} & \myprogress{0.7} \\
+                    {Interpreters} & \myprogress{0.8} \\
+                    {Operating Systems} & \myprogress{0.6} \\
+                    {Linux} & \myprogress{0.7} \\
+                    {Git} & \myprogress{0.7} \\
+                \end{tabularx}}
+            \item{\begin{center}\rule{0.4\textwidth}{0.5pt}\end{center}}
+            \item{\mysection{Education}}
+                {\begin{itemize}[itemsep=0.5ex,leftmargin=-0.1ex,rightmargin=1ex]
+                    \item\textbf{B.Tech in Information Technology}
+
+                    \textit{VIT, Vellore}\myhspace{{2020 - 2024}}
+
+                    Current CGPA: 9.22
+
+                    \vspace{2ex}
+
+                    \item\textbf{XII (Senior Secondary), CBSE}
+
+                    \textit{Navy Children School, Mumbai}\myhspace{{2020}}
+
+                    Percentage: 96.4\%
+
+                    \vspace{2ex}
+
+                    \item\textbf{X (Secondary), CBSE}
+
+                    \textit{Navy Children School, Mumbai}\myhspace{{2018}}
+
+                    Percentage: 93.6\%
+                \end{itemize}}
+        \end{itemize} &
+        \noindent\begin{itemize}[itemsep=1.5ex,leftmargin=1ex]
+            \item\vspace{-5.5ex}{\mysection{Experience}}
+            \item
+            \begin{itemize}[itemsep=3ex, leftmargin=0.1ex]
+                \item\textbf{Google Summer of Code Contributor (The ENIGMA Team)}
+
+                {\color{\primarycolor}June 13, 2022 - September 12, 2022}
+
+                \textit{Project name: Data Buffers / Serialization}
+
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Worked on rewriting most of the frontend of the ENIGMA Development Language compiler, a scripting language based on GML
+                    \item[-] Rewrote most of the Binary Buffer system which deals with storing and reading data from byte streams
+                    \item[-] Made a serialization and deserialization system which uses template metaprogramming for static polymorphism
+                    \item[-] \url{https://summerofcode.withgoogle.com/programs/2022/projects/BrXiUNA2}
+                \end{itemize}
+
+
+                \item\textbf{VIT Linux Users' Group - Core Member}
+
+                {\color{\primarycolor}December 2020 - January 2022}
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Initiated discussions with the rest of the club
+                    \item[-] Conducted the event "GIT IT RIGHT" , an introduction to the git version control system
+                    \item[-] Worked on Arcadia Linux, an in-house Linux distribution
+                \end{itemize}
+
+                \item\textbf{VIT Linux Users' Group - Board Member, Vice Chairman}
+
+                {\color{\primarycolor}January 2022 - Present}
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Helped set up and coordinate the recruitment forum for the freshers' recruitment process
+                    \item[-] Conducted interviews of new recruits
+                    \item[-] Conducted the "Quality Control in Open Source Projects" event for VIT Vellore's Quality Week
+                \end{itemize}
+            \end{itemize}
+        \end{itemize} \\
+
+        \hline
+    \end{tabularx}
+
+    \clearpage
+    \vspace{1ex}
+    \hrule
+    \vspace{2ex}
+    \noindent\mysection{Projects}
+
+    \vspace{2ex}
+    {\renewcommand{\arraystretch}{1.4}
+    \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.76\textwidth}|l}
+        \begin{itemize}[nosep,parsep=1ex,itemsep=0.8ex,leftmargin=0.1ex]
+            \item\vspace{-1.6ex}\textbf{nyx}\myhspace{\url{https://github.com/dc03/nyx}}
+            \item\begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                \item[-] A simple, interpreted language implemented in C++
+                \item[-] Features classes with constructors and destructors, lists, tuples
+                \item[-] Static type system
+                \item[-] Copy, reference and move semantics
+                \item[-] Bytecode virtual machine
+                \item[-] Code formatter, bytecode dumper, VM execution tracing
+            \end{itemize}
+        \end{itemize} &
+        \textit{September 2020} \\
+
+        \begin{itemize}[nosep,parsep=1ex,itemsep=0.8ex,leftmargin=0.1ex]
+            \item\vspace{-1.6ex}\textbf{rispy}\myhspace{\url{https://github.com/dc03/rispy}}
+            \item\begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                \item[-] Interpreter for a lispy-inspired lisp
+                \item[-] Implemented in Rust
+                \item[-] Tree-walk interpreter
+                \item[-] Testing for lexical analyzer and parser
+            \end{itemize}
+        \end{itemize} &
+        \textit{February 2022} \\
+
+        \begin{itemize}[nosep,parsep=1ex,itemsep=0.8ex,leftmargin=0.1ex]
+            \item\vspace{-1.6ex}\textbf{tictactoe-arduino}\myhspace{\url{https://github.com/dc03/mini-utf8}}
+            \item\begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                \item[-] Tic-tac-toe implemented on an Arduino Uno
+                \item[-] Multiplexing of outputs (LEDs) and inputs (buttons) to reduce pin usage
+                \item[-] Compact layout of game state to reduce memory usage
+                \item[-] Part of a university course project
+            \end{itemize}
+
+        \end{itemize} &
+        \textit{February 2023} \\
+    \end{tabularx}
+    }
+    \hrule
+    \vspace{2ex}
+    \noindent\mysection{Certifications}
+    \vspace{1ex}
+    \begin{itemize}[itemsep=3ex, leftmargin=0.1ex]
+        \item\textbf{Introduction to Haskell Programming (NPTEL)}\myhspace{\textit{Issued Sep 2022}}
+
+        Percentage: 85\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS69S2318078809012045}{Credential ID NPTEL22CS69S2318078809012045}}
+
+        \item\textbf{Compiler Design (NPTEL)}\myhspace{\textit{Issued Apr 2022}}
+
+        Percentage: 90\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS14S2446142802071248}{Credential ID NPTEL22CS14S2446142802071248}}
+
+        \item\textbf{Design and Analysis of Algorithms (NPTEL)}\myhspace{\textit{Issued Oct 2021}}
+
+        Percentage: 85\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL21CS68S4332059403122958}{Credential ID NPTEL21CS68S4332059403122958}}
+    \end{itemize}
+    \vspace{1ex}
+    \hrule
+
+    \noindent\begin{center}
+        Made with \LaTeX
+    \end{center}
+\end{document}
