@@ -20,11 +20,20 @@
 \hypersetup{
 	colorlinks=true,
     linkcolor=red,
+    linkbordercolor=red,
     filecolor=red,
     urlcolor=red,
-    citecolor=blue,
+    urlbordercolor=red,
     breaklinks=true,
 }
+
+\makeatletter
+\Hy@AtBeginDocument{%
+  \def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+  \def\@pdfborderstyle{/S/U/W 1}% Overrides border style set with colorlinks=true
+                                % Hyperlink border style will be underline of width 1pt
+}
+\makeatother
 
 \newcommand{\primarycolor}{red}
 \newcommand{\myprogress}[1]{\progressbar[width=3.1cm,roundnessr=0,filledcolor=black,emptycolor=white,subdivisions=1]{#1}}
@@ -88,7 +97,7 @@
 
                     \textit{VIT, Vellore}\myhspace{{2020 - 2024}}
 
-                    Current CGPA: 9.22
+                    Current CGPA: 9.28
 
                     \vspace{2ex}
 
@@ -182,7 +191,7 @@
         \textit{February 2022} \\
 
         \begin{itemize}[nosep,parsep=1ex,itemsep=0.8ex,leftmargin=0.1ex]
-            \item\vspace{-1.6ex}\textbf{tictactoe-arduino}\myhspace{\url{https://github.com/dc03/mini-utf8}}
+            \item\vspace{-1.6ex}\textbf{tictactoe-arduino}\myhspace{\url{https://github.com/dc03/tictactoe-arduino}}
             \item\begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
                 \item[-] Tic-tac-toe implemented on an Arduino Uno
                 \item[-] Multiplexing of outputs (LEDs) and inputs (buttons) to reduce pin usage
@@ -215,6 +224,6 @@
     \hrule
 
     \noindent\begin{center}
-        Made with \LaTeX
+        \href{https://github.com/dc03/resume}{Made with \LaTeX}
     \end{center}
 \end{document}
