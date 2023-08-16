@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1692173415 "Resume.xdv" "Resume.pdf" "Resume" 1692173415
-  "Resume.xdv" 1692173415 53224 7a7d1abac9d0ba9e40b7b2a942b0dea4 "xelatex"
+["xdvipdfmx"] 1692175269 "Resume.xdv" "Resume.pdf" "Resume" 1692175269
+  "Resume.xdv" 1692175269 53192 987f754e804de06a5acdc7b0fa41c7eb "xelatex"
   (generated)
   "Resume.pdf"
-["xelatex"] 1692173413 "/home/dc/Documents/Resume/Main/Resume.tex" "Resume.xdv" "Resume" 1692173415
+["xelatex"] 1692175267 "/home/dc/Documents/Resume/Main/Resume.tex" "Resume.xdv" "Resume" 1692175269
   "/etc/texmf/web2c/texmf.cnf" 1652679499 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dc/Documents/Resume/Main/Resume.tex" 1692173413 9489 1d6893438400925f3d358fd465f2306d ""
+  "/home/dc/Documents/Resume/Main/Resume.tex" 1692175267 9493 90002f90e2ea0efa37cfe3d317651ba1 ""
   "/home/dc/texmf/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -139,9 +139,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1685598658 3606612 ba61b87da4564b3849a4da2362da639f ""
-  "Resume.aux" 1692173415 652 b6e4afd79d6794965f2f124df8dc3ca9 "xelatex"
-  "Resume.out" 1692173414 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "Resume.tex" 1692173413 9489 1d6893438400925f3d358fd465f2306d ""
+  "Resume.aux" 1692175269 652 b6e4afd79d6794965f2f124df8dc3ca9 "xelatex"
+  "Resume.out" 1692175268 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "Resume.tex" 1692175267 9493 90002f90e2ea0efa37cfe3d317651ba1 ""
   (generated)
   "Resume.aux"
   "Resume.log"

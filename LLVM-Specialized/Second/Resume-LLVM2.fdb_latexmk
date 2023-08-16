@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1692173540 "Resume-LLVM2.xdv" "Resume-LLVM2.pdf" "Resume-LLVM2" 1692173541
-  "Resume-LLVM2.xdv" 1692173540 52616 963e8ed1f261ae26dca38af7eedea19e "xelatex"
+["xdvipdfmx"] 1692175102 "Resume-LLVM2.xdv" "Resume-LLVM2.pdf" "Resume-LLVM2" 1692175102
+  "Resume-LLVM2.xdv" 1692175102 52568 a58fae2410e27d005acaa355c1e43fd2 "xelatex"
   (generated)
   "Resume-LLVM2.pdf"
-["xelatex"] 1692173539 "/home/dc/Documents/Resume/LLVM-Specialized/Second/Resume-LLVM2.tex" "Resume-LLVM2.xdv" "Resume-LLVM2" 1692173541
+["xelatex"] 1692175101 "/home/dc/Documents/Resume/LLVM-Specialized/Second/Resume-LLVM2.tex" "Resume-LLVM2.xdv" "Resume-LLVM2" 1692175102
   "/etc/texmf/web2c/texmf.cnf" 1652679499 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dc/Documents/Resume/LLVM-Specialized/Second/Resume-LLVM2.tex" 1692173539 9601 211fa64106eb27ea7a0c8a0c6a6822c5 ""
+  "/home/dc/Documents/Resume/LLVM-Specialized/Second/Resume-LLVM2.tex" 1692175100 9605 58f5dca40d0d92c236d1343fcc458eff ""
   "/home/dc/texmf/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -139,9 +139,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1685598658 3606612 ba61b87da4564b3849a4da2362da639f ""
-  "Resume-LLVM2.aux" 1692173540 652 b6e4afd79d6794965f2f124df8dc3ca9 "xelatex"
-  "Resume-LLVM2.out" 1692173540 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "Resume-LLVM2.tex" 1692173539 9601 211fa64106eb27ea7a0c8a0c6a6822c5 ""
+  "Resume-LLVM2.aux" 1692175102 652 b6e4afd79d6794965f2f124df8dc3ca9 "xelatex"
+  "Resume-LLVM2.out" 1692175101 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "Resume-LLVM2.tex" 1692175100 9605 58f5dca40d0d92c236d1343fcc458eff ""
   (generated)
   "Resume-LLVM2.aux"
   "Resume-LLVM2.log"
