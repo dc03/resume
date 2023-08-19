@@ -1,0 +1,239 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{progressbar}
+\usepackage{tabularx}
+\usepackage{soul}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\large\color{\primarycolor}\vspace{-3.2ex}}{}{0ex}{}
+
+\newgeometry{
+    top=10mm,
+    bottom=10mm,
+    left=10mm,
+    right=10mm,
+}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+    linkcolor=red,
+    linkbordercolor=red,
+    filecolor=red,
+    urlcolor=black,
+    urlbordercolor=black,
+    breaklinks=true,
+}
+
+\makeatletter
+\Hy@AtBeginDocument{
+  \def\@pdfborder{0 0 1}
+  \def\@pdfborderstyle{/S/U/W 1}
+}
+\makeatother
+
+\newcommand{\primarycolor}{red}
+\newcommand{\myprogress}[1]{\progressbar[width=3.1cm,roundnessr=0,filledcolor=black,emptycolor=white,subdivisions=1]{#1}}
+\newcommand{\mysection}[1]{\section{#1}\vspace{-1ex}}
+\newcommand{\myhspace}[1]{\hspace*{\fill}{#1}}
+\newcommand{\myhrule}[1]{
+\vspace{1ex}
+\hrule
+\vspace{#1}
+}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \hrule
+    \vspace{2ex}
+    \noindent\begin{tabularx}{0.74\textwidth}{X r}
+        {
+            \begin{tabularx}{0.5\textwidth}{l}
+                \textbf{\Huge{Dhruv Chawla}} \vspace{1ex} \\
+                {\LARGE{\color{\primarycolor}Compiler Engineer}} \\
+            \end{tabularx}
+        } &
+
+        {
+            \begin{tabularx}{0\textwidth}{r}
+                {\href{mailto:dhruv263.dc@gmail.com}{dhruv263.dc@gmail.com}} \\
+                {+91 9910299843} \\
+                {\url{https://dc03.github.io}} \\
+                {Vellore, Tamil Nadu} \\
+            \end{tabularx}
+        } \\
+    \end{tabularx}
+
+    \myhrule{2ex}
+    {
+        \noindent A capable programmer learning compiler design and the LLVM compiler infrastructure. Experienced with interpreters, and familiar with systems and assembly programming. 4 years of C++ experience.
+    }
+    \myhrule{2ex}
+
+    \mysection{Languages}
+    {
+        \vspace{-4ex}
+        \begin{itemize}[leftmargin=20ex,itemsep=0ex]
+            \item English - Fluent
+            \item Hindi - Intermediate
+        \end{itemize}
+        \vspace{-1.5ex}
+    }
+    \myhrule{2ex}
+
+    \mysection{Skills}
+    {
+        \vspace{-1.5ex}
+        \begin{center}
+            \begin{multicols}{5}
+                \begin{itemize}[nosep,parsep=0.1ex,itemsep=0.1ex]
+                    \item C++
+                    \item C
+                    \item Python
+                    \item Rust
+                    \item Compilers
+                    \item Interpreters
+                    \item Linux
+                    \item Git
+                    \item LLVM
+                \end{itemize}
+            \end{multicols}
+        \end{center}
+    }
+    \myhrule{2ex}
+
+    \mysection{Experience}
+    {
+        % \renewcommand{\labelitemi}{}
+        % \renewcommand{\labelitemii}{}
+        % \renewcommand{\labelitemiii}{}
+        \begin{itemize}
+            \item
+                \textbf{Google Summer of Code Contributor (The ENIGMA Team)}
+
+                {\color{\primarycolor}June 13, 2022 - September 12, 2022}
+
+                \textit{Project name: Data Buffers / Serialization}
+                \vspace{-1ex}
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Worked on rewriting most of the frontend of the ENIGMA Development Language compiler, a scripting language based on GML
+                    \item[-] Rewrote most of the Binary Buffer system which deals with storing and reading data from byte streams
+                    \item[-] Made a serialization and deserialization system which uses template metaprogramming for static polymorphism
+                    \item[-] \url{https://summerofcode.withgoogle.com/programs/2022/projects/BrXiUNA2}
+                \end{itemize}
+
+            \item
+                \textbf{VIT Linux Users' Group - Core Member}
+
+                {\color{\primarycolor}December 2020 - January 2022}
+                \vspace{-1ex}
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Initiated discussions with the rest of the club
+                    \item[-] Conducted the event "GIT IT RIGHT" , an introduction to the git version control system
+                    \item[-] Worked on Arcadia Linux, an in-house Linux distribution
+                \end{itemize}
+
+            \item
+                \textbf{VIT Linux Users' Group - Board Member, Vice Chairman}
+
+                {\color{\primarycolor}January 2022 - Present}
+                \vspace{-1ex}
+                \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
+                    \item[-] Helped set up and coordinate the recruitment forum for the freshers' recruitment process
+                    \item[-] Conducted interviews of new recruits
+                    \item[-] Conducted the "Quality Control in Open Source Projects" event for VIT Vellore's Quality Week
+                \end{itemize}
+        \end{itemize}
+    }
+    \myhrule{2ex}
+
+    \pagebreak
+
+    \myhrule{2ex}
+    \mysection{Education}
+    {
+        \begin{itemize}[itemsep=0.5ex,rightmargin=1ex]
+            \item
+                \textbf{B.Tech in Information Technology}
+                \myhspace{\textit{VIT, Vellore} | 2020 - 2024}
+
+                Current CGPA: 9.28
+
+            \item
+                \textbf{XIIth Grade (Senior Secondary), CBSE}
+                \myhspace{\textit{Navy Children School, Mumbai} | 2020}
+
+                Percentage: 96.4\%
+
+            \item
+                \textbf{Xth Grade (Secondary), CBSE}
+                \myhspace{\textit{Navy Children School, Mumbai} | 2018}
+
+                Percentage: 93.6\%
+        \end{itemize}
+    }
+    \myhrule{2ex}
+
+    \mysection{Projects}
+    {
+            \begin{itemize}[itemsep=0.8ex]
+                \item
+                    \textbf{nyx}\myhspace{\url{https://github.com/dc03/nyx} | \textit{September 2020}}
+                    \begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                        \item[-] A simple, interpreted language implemented in C++
+                        \item[-] Features classes with constructors and destructors, lists, tuples
+                        \item[-] Static type system
+                        \item[-] Copy, reference and move semantics
+                        \item[-] Bytecode virtual machine
+                        \item[-] Code formatter, bytecode dumper, VM execution tracing
+                    \end{itemize}
+                \item
+                    \textbf{rispy}\myhspace{\url{https://github.com/dc03/rispy} | \textit{February 2022}}
+                    \begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                        \item[-] Interpreter for a lispy-inspired lisp
+                        \item[-] Implemented in Rust
+                        \item[-] Tree-walk interpreter
+                        \item[-] Testing for lexical analyzer and parser
+                    \end{itemize}
+                \item
+                    \textbf{tictactoe-arduino}\myhspace{\url{https://github.com/dc03/tictactoe-arduino} | \textit{February 2023}}
+                    \begin{itemize}[itemsep=0.5ex, leftmargin=3.5ex]
+                        \item[-] Tic-tac-toe implemented on an Arduino Uno
+                        \item[-] Multiplexing of outputs (LEDs) and inputs (buttons) to reduce pin usage
+                        \item[-] Compact layout of game state to reduce memory usage
+                        \item[-] Part of a university course project
+                    \end{itemize}
+            \end{itemize} 
+    }
+    \myhrule{2ex}
+
+    \mysection{Certifications}
+    {
+        \begin{itemize}
+            \item
+                \textbf{Introduction to Haskell Programming (NPTEL)}\myhspace{\textit{Issued Sep 2022}}
+
+                {Percentage: 85\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS69S2318078809012045}{Credential ID NPTEL22CS69S2318078809012045}}}
+            \item
+                \textbf{Compiler Design (NPTEL)}\myhspace{\textit{Issued Apr 2022}}
+
+                {Percentage: 90\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS14S2446142802071248}{Credential ID NPTEL22CS14S2446142802071248}}}
+            \item
+                \textbf{Design and Analysis of Algorithms (NPTEL)}\myhspace{\textit{Issued Oct 2021}}
+
+                {Percentage: 85\%\myhspace{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL21CS68S4332059403122958}{Credential ID NPTEL21CS68S4332059403122958}}}
+        \end{itemize}
+    }
+    \myhrule{2ex}
+
+    \begin{center}
+        \href{https://github.com/dc03/resume}{Made with \LaTeX}
+    \end{center}
+\end{document}
