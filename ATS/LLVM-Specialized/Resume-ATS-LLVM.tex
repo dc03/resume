@@ -127,28 +127,19 @@
         % \renewcommand{\labelitemiii}{}
         \begin{itemize}
             \item
-                \textbf{The LLVM Compiler Infrastructure}
+                \textbf{Google Summer of Code Contributor (The LLVM Compiler Infrastructure)}
 
-                {\color{\primarycolor}January 2023 - Present}
+                {\color{\primarycolor}May 29, 2023 - September 25, 2023}
 
-                \textit{Examples of Patches Contributed}
+                \textit{Project name: Improving Compile Times}
                 \vspace{-1ex}
                 \begin{itemize}[itemsep=1ex, leftmargin=3.5ex]
-                    \item[-]
-                        {\texttt{[clang][alias|ifunc]: Add a diagnostic for mangled names}}\\
-                        \url{https://reviews.llvm.org/D143803}
-                    \item[-]
-                        {\texttt{[NFC][TLI] Replace std::lower\_bound call in getLibFunc with DenseMap lookup}}\\
-                        \url{https://reviews.llvm.org/D157951}
-                    \item[-]
-                        {\texttt{\justify{[NFC][ValueTracking]: Remove redundant computeKnownBits call for LoadInst in isKnownNonZero}}}\\
-                        \url{https://reviews.llvm.org/D155958}
-                    \item[-]
-                        {\texttt{[InstCombine] Fold icmps comparing uadd\_sat with a constant}}\\
-                        \url{https://reviews.llvm.org/D154565}
-                    \item[-]
-                        {\texttt{[SetVector] Improve performance for small sizes}}\\
-                        \url{https://reviews.llvm.org/D152497}
+                    \item[-] Implemented the InferAlignment pass into the LLVM optimization pipeline
+                    \item[-] Added a new diagnostic to clang
+                    \item[-] Implemented transforms within InstCombine
+                    \item[-] Found miscellaneous performance improvements in DAGCombiner and InstCombine
+                    \item[-] Found a major performance improvement in SetVector
+                    \item[-] \url{https://summerofcode.withgoogle.com/programs/2023/projects/JdqGUwNq}
                 \end{itemize}
             \item
                 \textbf{Google Summer of Code Contributor (The ENIGMA Team)}
